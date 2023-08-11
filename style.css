@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: beige;
+    width: 90%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+
+h1{
+    font-size: 24px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 16px;
+    color: purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.iniciales{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.caja{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.caja img{
+    margin: 10px;
+    border-top-left-radius: 60px;
+}
+
+.caja p{
+    font-size: 12px;
+}
+
+.presentacion h1{
+    font-size: 35px;
+    color: brown;
+}
+
+.presentacion p{
+    width: 70%;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Zeyada', cursive;
+}
+
+a{
+    text-decoration: solid;
+}
